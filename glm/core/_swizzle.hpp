@@ -608,6 +608,7 @@ namespace glm
 	struct { glm::detail::swizzle<4,T,P,0,0,3,1> E0 ## E0 ## E3 ## E1; }; \
 	struct { glm::detail::swizzle<4,T,P,0,0,3,2> E0 ## E0 ## E3 ## E2; }; \
 	struct { glm::detail::swizzle<4,T,P,0,0,3,3> E0 ## E0 ## E3 ## E3; }; \
+ 	struct { glm::detail::swizzle<4,T,P,0,3,3,3> E0 ## E3 ## E3 ## E3; }; \
 	struct { glm::detail::swizzle<4,T,P,0,1,0,0> E0 ## E1 ## E0 ## E0; }; \
 	struct { glm::detail::swizzle<4,T,P,0,1,0,1> E0 ## E1 ## E0 ## E1; }; \
 	struct { glm::detail::swizzle<4,T,P,0,1,0,2> E0 ## E1 ## E0 ## E2; }; \
